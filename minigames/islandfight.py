@@ -16,7 +16,7 @@ class IslandFight(minigame.Minigame):
     name = 'Island Fight!!!'
     playerImages = [pygame.image.load('./res/img/islandFight/Red.png'),pygame.image.load('./res/img/islandFight/Blue.png')]
     projectileImages = [pygame.image.load('./res/img/islandFight/RedBullet.png'),pygame.image.load('./res/img/islandFight/BlueBullet.png')]
-    islandImage = pygame.image.load('./res/img/islandFight/Island.png')
+    islandImage = pygame.image.load('./res/img/islandFight/island.png')
     pushBack = 40
     projectileSpeed = 20
     moveSpeed = 10
